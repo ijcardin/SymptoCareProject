@@ -1,0 +1,32 @@
+td {
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+    background-color:white;
+    height: 40px;
+    border: 1px solid black;
+    width: 25%;
+  }
+  table, th, td {
+    border: 1px solid black;
+  }
+  td:first-child {
+    padding-left: 0;
+  }
+  
+  td:last-child {
+    padding-right: 0;
+  }
+  
+  table {
+    width: calc(100% + 30px);
+    table-layout: fixed;
+    border-spacing: 15px 0px;
+    background: white ;
+    margin: 0px -15px;
+  }
+  
+  .table-container {
+    overflow: hidden;
+    width: 400px;
+    margin: 0 auto;
+  }
